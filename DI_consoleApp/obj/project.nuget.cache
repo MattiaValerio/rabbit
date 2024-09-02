@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "F5P9kWZP2Z+YH2dpr7L7BQDF9nluHygWo8pDQIiAVdVh8TewbmsOupmivzXt22EaL0IzIzr5kVO+SMdUusb8mg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\DI_consoleApp\\DI_consoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mattia\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\mattia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

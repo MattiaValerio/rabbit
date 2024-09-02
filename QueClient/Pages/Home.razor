@@ -1,0 +1,32 @@
+﻿@page "/"
+@using System.Text
+@using QueLib.Models
+@using QueLib.Server.Services.QueService.Sender
+@inject QueSender QueSender
+
+<PageTitle>Home</PageTitle>
+
+
+<input @bind="name" placeholder="Nome" />
+<input @bind="lastname" placeholder="Cognome" />
+<button @onclick="SendMessage">Invia</button>
+
+@code {
+    private string name;
+    private string lastname;
+    private readonly HttpClient _httpClient = new();
+
+    private async Task SendMessage()
+    {
+        try
+        {
+            Persona persona = new Persona(name, lastname);
+            Console.WriteLine(persona.Name);
+            await _httpClient.PostAsJsonAsync("http://localhost:5143/Que/send", persona);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}

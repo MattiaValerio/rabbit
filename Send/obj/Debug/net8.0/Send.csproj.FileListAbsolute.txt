@@ -1,0 +1,17 @@
+C:\Users\mattia\Desktop\test\rabbit\Send\bin\Debug\net8.0\Send.exe
+C:\Users\mattia\Desktop\test\rabbit\Send\bin\Debug\net8.0\Send.deps.json
+C:\Users\mattia\Desktop\test\rabbit\Send\bin\Debug\net8.0\Send.runtimeconfig.json
+C:\Users\mattia\Desktop\test\rabbit\Send\bin\Debug\net8.0\Send.dll
+C:\Users\mattia\Desktop\test\rabbit\Send\bin\Debug\net8.0\Send.pdb
+C:\Users\mattia\Desktop\test\rabbit\Send\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.csproj.AssemblyReference.cache
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.AssemblyInfoInputs.cache
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.AssemblyInfo.cs
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.csproj.CoreCompileInputs.cache
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.csproj.Up2Date
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.dll
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\refint\Send.dll
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.pdb
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.genruntimeconfig.cache
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\ref\Send.dll
