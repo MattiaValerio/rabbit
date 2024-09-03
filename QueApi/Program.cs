@@ -8,6 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton(new RabbitMqConfig());
 builder.Services.AddSingleton<QueReceiver>();
 builder.Services.AddSingleton<QueSender>();
+builder.Services.AddSingleton<QueReceiverBackgroundService>();
+builder.Services.AddHostedService<QueReceiverBackgroundService>();
+builder.Services.AddSingleton<RabbitService>();
+builder.Services.AddHostedService<RabbitListener>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -20,7 +24,10 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => // Enable middleware to serve swagger-ui
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "RabbitMQ API V1");
+    });
 }
 //allow any policy for CORS
 app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());

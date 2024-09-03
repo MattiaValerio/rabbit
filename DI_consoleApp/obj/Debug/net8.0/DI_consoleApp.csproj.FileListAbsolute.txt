@@ -16,3 +16,4 @@ C:\Users\mattia\Desktop\test\rabbit\DI_consoleApp\bin\Debug\net8.0\Microsoft.Ext
 C:\Users\mattia\Desktop\test\rabbit\DI_consoleApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\mattia\Desktop\test\rabbit\DI_consoleApp\obj\Debug\net8.0\DI_consoleApp.csproj.AssemblyReference.cache
 C:\Users\mattia\Desktop\test\rabbit\DI_consoleApp\obj\Debug\net8.0\DI_conso.DC3CBDDC.Up2Date
+C:\Users\mattia\Desktop\test\rabbit\DI_consoleApp\obj\Debug\net8.0\DI_consoleApp.sourcelink.json

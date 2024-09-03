@@ -12,3 +12,4 @@ C:\Users\mattia\Desktop\test\rabbit\Factory\obj\Debug\net8.0\refint\Factory.dll
 C:\Users\mattia\Desktop\test\rabbit\Factory\obj\Debug\net8.0\Factory.pdb
 C:\Users\mattia\Desktop\test\rabbit\Factory\obj\Debug\net8.0\Factory.genruntimeconfig.cache
 C:\Users\mattia\Desktop\test\rabbit\Factory\obj\Debug\net8.0\ref\Factory.dll
+C:\Users\mattia\Desktop\test\rabbit\Factory\obj\Debug\net8.0\Factory.sourcelink.json

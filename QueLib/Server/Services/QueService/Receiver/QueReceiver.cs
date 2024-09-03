@@ -11,12 +11,17 @@ public class QueReceiver
     public QueReceiver(RabbitMqConfig config)
     {
         _conf = config;
+        
+        Factory = new ConnectionFactory
+        {
+            HostName = _conf.HostName
+        };
     }
-    
+
+    public ConnectionFactory Factory { get; set; }
     public void Receive()
     {
-        var factory = new ConnectionFactory() { HostName = _conf.HostName };
-        using var connection = factory.CreateConnection();
+        using var connection = Factory.CreateConnection();
         using var channel = connection.CreateModel();
         channel.QueueDeclare(
             queue: _conf.QueueName, 
@@ -30,7 +35,7 @@ public class QueReceiver
         {
             var body = ea.Body.ToArray();
             var message = Encoding.UTF8.GetString(body);
-            Console.WriteLine("Received {0}", message);
+            Console.WriteLine("Received: {0}", message);
         };
         channel.BasicConsume(queue: _conf.QueueName, autoAck: true, consumer: consumer);
     }

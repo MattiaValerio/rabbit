@@ -1,4 +1,6 @@
-﻿namespace QueLib.Models;
+﻿using System.Text.Json;
+
+namespace QueLib.Models;
 
 public class Persona
 {
@@ -11,5 +13,11 @@ public class Persona
         Id = Guid.NewGuid();
         Name = name;
         Lastname = lastname;
+    }
+
+    public override string ToString()
+    {
+        // deserialize this object and return it
+        return JsonSerializer.Serialize(this);
     }
 }

@@ -21,7 +21,6 @@ public class QueSender
             var factory = new ConnectionFactory() { HostName = _conf.HostName };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
-            Console.WriteLine(channel.CurrentQueue);
             channel.QueueDeclare(
                 queue: _conf.QueueName, 
                 durable: false, 

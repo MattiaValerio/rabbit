@@ -15,3 +15,4 @@ C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\refint\Send.dll
 C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.pdb
 C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.genruntimeconfig.cache
 C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\ref\Send.dll
+C:\Users\mattia\Desktop\test\rabbit\Send\obj\Debug\net8.0\Send.sourcelink.json

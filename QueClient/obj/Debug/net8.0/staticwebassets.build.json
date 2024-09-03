@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FjwmaW6I7tdE2UqPjRf6nQ4RR7AMTQDJZ2uHQasMioY=",
+  "Hash": "/yeTp3/C93QK+BD3xNZAyZq4uSD1pXykIXHgsVQV/gE=",
   "Source": "QueClient",
   "BasePath": "/",
   "Mode": "Root",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.7.8k1ut2rmq6.js",
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.8.66tadknij7.js",
       "SourceId": "QueClient",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.7.8k1ut2rmq6.js",
+      "RelativePath": "_framework/dotnet.native.8.0.8.66tadknij7.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.7.fmlu6ldma6.js",
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.8.wvrssqv7rp.js",
       "SourceId": "QueClient",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.7.fmlu6ldma6.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.8.wvrssqv7rp.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -185,7 +185,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\mattia\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -492,6 +492,25 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\webcil\\Microsoft.Extensions.DependencyInjection.wasm"
     },
     {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\webcil\\Microsoft.Extensions.Diagnostics.Abstractions.wasm"
+    },
+    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.wasm",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -547,6 +566,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\webcil\\Microsoft.Extensions.FileSystemGlobbing.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Hosting.Abstractions.wasm",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Hosting.Abstractions.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\webcil\\Microsoft.Extensions.Hosting.Abstractions.wasm"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm",
@@ -4102,6 +4140,25 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.wasm"
     },
     {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\1o85riq0jg.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\22q3y3mg8j.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -4138,25 +4195,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\2hz7h4n58e.gz",
-      "SourceId": "QueClient",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\2m52osirjx.gz",
@@ -4252,6 +4290,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Memory.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\3fum929t63.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\3ggj9pcrd4.gz",
@@ -4406,6 +4463,25 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.wasm"
     },
     {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\4lje13ovy5.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.Abstractions.wasm"
+    },
+    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\4w78g3u1cl.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -4423,6 +4499,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Security.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\4zf2s4hvoc.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\55u0t6swry.gz",
@@ -4634,6 +4729,25 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Requests.wasm"
     },
     {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\66tadknij7.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.8.66tadknij7.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.8.66tadknij7.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.8.66tadknij7.js"
+    },
+    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\6lckuqm0fq.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -4767,23 +4881,23 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.Serialization.wasm"
     },
     {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\8k1ut2rmq6.gz",
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\8mg2xaj1io.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.7.8k1ut2rmq6.js.gz",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.7.8k1ut2rmq6.js",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.7.8k1ut2rmq6.js"
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\8utso8yqdw.gz",
@@ -5128,6 +5242,25 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Xml.wasm"
     },
     {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\bqogwn1gol.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Hosting.Abstractions.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Hosting.Abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Hosting.Abstractions.wasm"
+    },
+    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\bxt34w68ct.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -5316,6 +5449,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\deq1vvt6d7.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\dqvkoufu40.gz",
@@ -5603,25 +5755,6 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.wasm"
     },
     {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\fmlu6ldma6.gz",
-      "SourceId": "QueClient",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.7.fmlu6ldma6.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.7.fmlu6ldma6.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.7.fmlu6ldma6.js"
-    },
-    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\fqlta5myvh.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -5717,25 +5850,6 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.wasm"
     },
     {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\g84ws6gc8n.gz",
-      "SourceId": "QueClient",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
-    },
-    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\gdhalpoy64.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -5829,25 +5943,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\h1k9k6j9bi.gz",
-      "SourceId": "QueClient",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\hccx6mrbkh.gz",
@@ -5983,6 +6078,25 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Queryable.wasm"
     },
     {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\hxfo752b7n.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
+    },
+    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\ia9g0jxrm4.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -6114,25 +6228,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\jrgapl9hxk.gz",
-      "SourceId": "QueClient",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\jxfnia3yho.gz",
@@ -7028,25 +7123,6 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.Reader.wasm"
     },
     {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\ruum6gh801.gz",
-      "SourceId": "QueClient",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
-    },
-    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\rx0iqy1tjc.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -7121,6 +7197,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\QueLib.pdb"
+    },
+    {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\si4g3fwpvo.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\sjviybp6rv.gz",
@@ -7311,25 +7406,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Json.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\urwixvgzkn.gz",
-      "SourceId": "QueClient",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\uw2xwuueyq.gz",
@@ -7541,6 +7617,25 @@
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Extensions.wasm"
     },
     {
+      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\wvrssqv7rp.gz",
+      "SourceId": "QueClient",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.8.wvrssqv7rp.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.8.wvrssqv7rp.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.8.wvrssqv7rp.js"
+    },
+    {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\xci4v1gopi.gz",
       "SourceId": "QueClient",
       "SourceType": "Computed",
@@ -7634,25 +7729,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Parallel.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\y3xy138oi1.gz",
-      "SourceId": "QueClient",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueClient\\obj\\Debug\\net8.0\\compressed\\ys47sigmw0.gz",

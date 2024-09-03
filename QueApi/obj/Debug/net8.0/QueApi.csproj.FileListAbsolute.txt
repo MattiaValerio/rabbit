@@ -33,3 +33,4 @@ C:\Users\mattia\Desktop\test\rabbit\QueApi\obj\Debug\net8.0\refint\QueApi.dll
 C:\Users\mattia\Desktop\test\rabbit\QueApi\obj\Debug\net8.0\QueApi.pdb
 C:\Users\mattia\Desktop\test\rabbit\QueApi\obj\Debug\net8.0\QueApi.genruntimeconfig.cache
 C:\Users\mattia\Desktop\test\rabbit\QueApi\obj\Debug\net8.0\ref\QueApi.dll
+C:\Users\mattia\Desktop\test\rabbit\QueApi\obj\Debug\net8.0\QueApi.sourcelink.json

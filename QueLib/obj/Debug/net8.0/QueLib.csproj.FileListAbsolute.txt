@@ -10,3 +10,4 @@ C:\Users\mattia\Desktop\test\rabbit\QueLib\obj\Debug\net8.0\QueLib.dll
 C:\Users\mattia\Desktop\test\rabbit\QueLib\obj\Debug\net8.0\refint\QueLib.dll
 C:\Users\mattia\Desktop\test\rabbit\QueLib\obj\Debug\net8.0\QueLib.pdb
 C:\Users\mattia\Desktop\test\rabbit\QueLib\obj\Debug\net8.0\ref\QueLib.dll
+C:\Users\mattia\Desktop\test\rabbit\QueLib\obj\Debug\net8.0\QueLib.sourcelink.json
