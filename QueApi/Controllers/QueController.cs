@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using QueLib.Models;
 using QueLib.Server.Services.QueService;
-using QueLib.Server.Services.QueService.Receiver;
-using QueLib.Server.Services.QueService.Sender;
 
 namespace QueApi.Controllers;
 
@@ -10,17 +8,11 @@ namespace QueApi.Controllers;
 [Route("[controller]")]
 public class QueController : ControllerBase
 {
-    private readonly QueSender _senderService;
-    private readonly QueReceiver _receiverService;
-    private readonly QueReceiverBackgroundService _backgroundService;
     private readonly IHostApplicationLifetime _applicationLifetime;
     private readonly RabbitService _rabbitService;
 
-    public QueController(QueSender senderService, QueReceiver receiverService,RabbitService rabbitService, QueReceiverBackgroundService backgroundService, IHostApplicationLifetime applicationLifetime)
+    public QueController(RabbitService rabbitService, IHostApplicationLifetime applicationLifetime)
     {
-        _senderService = senderService;
-        _receiverService = receiverService;
-        _backgroundService = backgroundService;
         _applicationLifetime = applicationLifetime;
         _rabbitService = rabbitService;
     }
@@ -68,25 +60,4 @@ public class QueController : ControllerBase
         return Ok("Message published to the queue");
     }
     
-    [HttpPost("send")]
-    public IActionResult SendMessage(Persona persona)
-    {
-        _senderService.Send(persona);
-        return Ok();
-    }
-    
-    [HttpPost("start-background-receiver")]
-    public IActionResult StartBackgroundReceiver()
-    {
-        _backgroundService.StartAsync(_applicationLifetime.ApplicationStopping);
-        
-        return Ok("Background receiver started.");
-    }
-
-    [HttpPost("stop-background-receiver")]
-    public IActionResult StopBackgroundReceiver()
-    {
-        _backgroundService.StopAsync(_applicationLifetime.ApplicationStopping);
-        return Ok("Background receiver stopped.");
-    }
 }

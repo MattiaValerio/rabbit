@@ -21,6 +21,7 @@ public class RabbitService
         };
         _connection = factory.CreateConnection();
         _channel = _connection.CreateModel();
+        _consumer = new EventingBasicConsumer(_channel);
         _channel.QueueDeclare(queue: _conf.QueueName,
             durable: false,
             exclusive: false,
@@ -40,7 +41,6 @@ public class RabbitService
     
     public void ReceiveMessage(Action<string> handleMessage)
     {
-        _consumer = new EventingBasicConsumer(_channel);
         _consumer.Received += (model, ea) =>
         {
             var body = ea.Body.ToArray();

@@ -123,10 +123,7 @@
           "RabbitMQ.Client": "6.8.1"
         },
         "runtime": {
-          "QueLib.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "QueLib.dll": {}
         }
       }
     }
