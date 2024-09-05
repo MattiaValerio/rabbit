@@ -623,25 +623,39 @@
     ]
   },
   "packageFolders": {
-    "/home/mattia/.nuget/packages/": {}
+    "C:\\Users\\mattia\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mattia/Desktop/Dev/test-rabbit/QueLib/QueLib.csproj",
+      "projectUniqueName": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueLib\\QueLib.csproj",
       "projectName": "QueLib",
-      "projectPath": "/home/mattia/Desktop/Dev/test-rabbit/QueLib/QueLib.csproj",
-      "packagesPath": "/home/mattia/.nuget/packages/",
-      "outputPath": "/home/mattia/Desktop/Dev/test-rabbit/QueLib/obj/",
+      "projectPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueLib\\QueLib.csproj",
+      "packagesPath": "C:\\Users\\mattia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\QueLib\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/mattia/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mattia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\mattia\\Desktop\\Nugets": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/Hr3wZpJbbFQbksDO3Az7sv3c1MLuerbtOzTqdtiXdUecd7BGvD/api": {}
       },
       "frameworks": {
         "net8.0": {
@@ -684,7 +698,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

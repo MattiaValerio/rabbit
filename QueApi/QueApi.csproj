@@ -12,7 +12,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\QueLib\QueLib.csproj" />
+      <ProjectReference Include="..\Application\Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
     </ItemGroup>
 
 </Project>
