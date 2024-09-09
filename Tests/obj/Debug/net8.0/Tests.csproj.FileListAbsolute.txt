@@ -117,3 +117,5 @@ C:\Users\mattia\Desktop\test\rabbit\Tests\obj\Debug\net8.0\refint\Tests.dll
 C:\Users\mattia\Desktop\test\rabbit\Tests\obj\Debug\net8.0\Tests.pdb
 C:\Users\mattia\Desktop\test\rabbit\Tests\obj\Debug\net8.0\Tests.genruntimeconfig.cache
 C:\Users\mattia\Desktop\test\rabbit\Tests\obj\Debug\net8.0\ref\Tests.dll
+C:\Users\mattia\Desktop\test\rabbit\Tests\bin\Debug\net8.0\MediatR.dll
+C:\Users\mattia\Desktop\test\rabbit\Tests\bin\Debug\net8.0\MediatR.Contracts.dll

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AV8U8+FUYbslcGsJk9UzIL5rZG3CTg5m8OheNKJR97BffSKLYNKO1nKwPC+QO9S/7HwdBo/KlhzwwHq1RgBynQ==",
+  "dgSpecHash": "194NGgz4w828E5f/rF4Ctu4HWQHZ7dQvZE+8/JPA+eoA+3366k32WCeayrIEHNPYVD7edCJ+1Rxwo4XuNjYD/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mattia\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\mattia\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\mattia\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
+    "C:\\Users\\mattia\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\mattia\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\mattia\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\mattia\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

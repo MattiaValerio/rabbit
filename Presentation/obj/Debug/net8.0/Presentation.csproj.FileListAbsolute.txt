@@ -36,3 +36,5 @@ C:\Users\mattia\Desktop\test\rabbit\Presentation\obj\Debug\net8.0\refint\Present
 C:\Users\mattia\Desktop\test\rabbit\Presentation\obj\Debug\net8.0\Presentation.pdb
 C:\Users\mattia\Desktop\test\rabbit\Presentation\obj\Debug\net8.0\Presentation.genruntimeconfig.cache
 C:\Users\mattia\Desktop\test\rabbit\Presentation\obj\Debug\net8.0\ref\Presentation.dll
+C:\Users\mattia\Desktop\test\rabbit\Presentation\bin\Debug\net8.0\MediatR.dll
+C:\Users\mattia\Desktop\test\rabbit\Presentation\bin\Debug\net8.0\MediatR.Contracts.dll

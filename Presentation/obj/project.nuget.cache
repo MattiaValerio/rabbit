@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iPqhw67jplm+2rABUiDH2LVHk/zHhsAYQmhfzITd9ylgOvTgid3rUmYncG0vyka3HvWZ5c2HLSgT5oJ+Tu6Ecw==",
+  "dgSpecHash": "LxCTFRMIkrRSL3drZWJVDPxGDgUhiLo6atOdSCX6AIeyliuk58FffjTFTMzDUODeA3vHoe1jKN5tpmfbIPSk0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mattia\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
+    "C:\\Users\\mattia\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\mattia\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\mattia\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\mattia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
