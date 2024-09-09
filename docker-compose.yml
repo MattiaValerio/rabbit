@@ -4,7 +4,7 @@
     container_name: svelto.backend
     build:
       context: .
-      dockerfile: presentation/Dockerfile
+      dockerfile: Presentation/Dockerfile
     ports:
       - "5000:5000"
     depends_on:
