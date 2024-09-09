@@ -1,4 +1,5 @@
 ﻿using Application.Command.Order;
+using Application.Command.OrderOfDay;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 namespace Presentation.Controllers;
@@ -14,9 +15,18 @@ public class OrderController : Controller
     {
         _mediator = mediator;
     }
+    
+    [HttpGet]
+    [Route("ordini")]
+    public async Task<IActionResult> GetOrdersOfDay([FromQuery] OrdiniDelGiornoCommand command)
+    {
+        var result = await _mediator.Send(command);
+        return Ok(result);
+    }
 
     [HttpPost]
-    public async Task<IActionResult> CreateOrder([FromBody] OrderCommand command)
+    [Route("create")]
+    public async Task<IActionResult> CreateOrder([FromBody] OrdineCommand command)
     {
         var result = await _mediator.Send(command);
         return Ok(result);

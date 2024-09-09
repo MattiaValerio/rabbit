@@ -10,11 +10,4 @@
       <ProjectReference Include="..\Application\Application.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Data\" />
-      <Folder Include="ExternalServices\" />
-      <Folder Include="Persistence\" />
-      <Folder Include="Repos\" />
-    </ItemGroup>
-
 </Project>

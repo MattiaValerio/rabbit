@@ -1,0 +1,41 @@
+﻿services:
+  svelto.backend:
+    image: ${DOCKER_REGISTRY-}presentation
+    container_name: svelto.backend
+    build:
+      context: .
+      dockerfile: presentation/Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - svelto.database
+
+  svelto.database:
+    image: postgres:latest
+    hostname: postgres
+    container_name: chargeme.database
+    environment:
+      POSTGRES_DB: chargemedb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    depends_on:
+      - svelto.database
+    image: dpage/pgadmin4:latest
+    hostname: pgadmin
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@svelto.com
+      PGADMIN_DEFAULT_PASSWORD: svelto
+    ports:
+      - "5050:80"
+  
+  svelto.rabbitmq:
+    image: rabbitmq:3-management
+    container_name: svelto.rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"

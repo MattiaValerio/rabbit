@@ -9,10 +9,33 @@
       "Presentation/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
           "Presentation.dll": {}
+        }
+      },
+      "Castle.Core/5.1.1": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      },
+      "FakeItEasy/8.3.0": {
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "runtime": {
+          "lib/net8.0/FakeItEasy.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.3.0.0"
+          }
         }
       },
       "MediatR/12.4.0": {
@@ -134,28 +157,32 @@
         }
       },
       "System.Diagnostics.DiagnosticSource/8.0.0": {},
+      "System.Diagnostics.EventLog/6.0.0": {},
       "System.Memory/4.5.5": {},
       "System.Threading.Channels/7.0.0": {},
       "Application/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "FakeItEasy": "8.3.0",
           "MediatR": "12.4.0",
           "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
           "RabbitMQ.Client": "6.8.1"
         },
         "runtime": {
-          "Application.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Application.dll": {}
         }
       },
       "Domain/1.0.0": {
         "runtime": {
-          "Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Domain.dll": {}
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
         }
       }
     }
@@ -165,6 +192,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Castle.Core/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "path": "castle.core/5.1.1",
+      "hashPath": "castle.core.5.1.1.nupkg.sha512"
+    },
+    "FakeItEasy/8.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5QmShA6njFOhQHUYrFUjWEepfRcbQLOhgctaFhWyhPTi17kVGNyZOdvJ/2HhoNthmdghIzNsnZsMScJZhVBaQQ==",
+      "path": "fakeiteasy/8.3.0",
+      "hashPath": "fakeiteasy.8.3.0.nupkg.sha512"
     },
     "MediatR/12.4.0": {
       "type": "package",
@@ -292,6 +333,13 @@
       "path": "system.diagnostics.diagnosticsource/8.0.0",
       "hashPath": "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
     },
+    "System.Diagnostics.EventLog/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
+      "path": "system.diagnostics.eventlog/6.0.0",
+      "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+    },
     "System.Memory/4.5.5": {
       "type": "package",
       "serviceable": true,
@@ -312,6 +360,11 @@
       "sha512": ""
     },
     "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

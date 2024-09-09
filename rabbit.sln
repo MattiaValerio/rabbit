@@ -12,7 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{9BC4D24C-5314-4E5F-96CA-FE29370D66EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4BF30469-3F07-4B9D-8718-F7A9030AD0F7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker-compose", "docker-compose", "{CEE1285D-D1B3-4BB6-B800-3337ACEAF940}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,7 +27,6 @@ Global
 		{5A2B72A3-8CF7-4630-8FF8-B01BA18809BA} = {0C9596CD-9503-4179-80D7-4305640D074F}
 		{FC63B411-B032-4DE1-8671-7495A3082DAA} = {0C9596CD-9503-4179-80D7-4305640D074F}
 		{9BC4D24C-5314-4E5F-96CA-FE29370D66EF} = {0C9596CD-9503-4179-80D7-4305640D074F}
-		{4BF30469-3F07-4B9D-8718-F7A9030AD0F7} = {E4B478E0-B4C7-4513-A86A-E5EF234B2E7A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5BD15D33-C627-4E3D-8914-44DD0224E996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -43,9 +45,5 @@ Global
 		{9BC4D24C-5314-4E5F-96CA-FE29370D66EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC4D24C-5314-4E5F-96CA-FE29370D66EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC4D24C-5314-4E5F-96CA-FE29370D66EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4BF30469-3F07-4B9D-8718-F7A9030AD0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BF30469-3F07-4B9D-8718-F7A9030AD0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4BF30469-3F07-4B9D-8718-F7A9030AD0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BF30469-3F07-4B9D-8718-F7A9030AD0F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

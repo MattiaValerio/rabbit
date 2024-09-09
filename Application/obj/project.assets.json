@@ -2,6 +2,38 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Castle.Core/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FakeItEasy/8.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net8.0/FakeItEasy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FakeItEasy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MediatR/12.4.0": {
         "type": "package",
         "dependencies": {
@@ -218,6 +250,32 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Diagnostics.EventLog/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
@@ -256,6 +314,53 @@
     }
   },
   "libraries": {
+    "Castle.Core/5.1.1": {
+      "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "type": "package",
+      "path": "castle.core/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle-logo.png",
+        "castle.core.5.1.1.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net462/Castle.Core.dll",
+        "lib/net462/Castle.Core.xml",
+        "lib/net6.0/Castle.Core.dll",
+        "lib/net6.0/Castle.Core.xml",
+        "lib/netstandard2.0/Castle.Core.dll",
+        "lib/netstandard2.0/Castle.Core.xml",
+        "lib/netstandard2.1/Castle.Core.dll",
+        "lib/netstandard2.1/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
+    "FakeItEasy/8.3.0": {
+      "sha512": "5QmShA6njFOhQHUYrFUjWEepfRcbQLOhgctaFhWyhPTi17kVGNyZOdvJ/2HhoNthmdghIzNsnZsMScJZhVBaQQ==",
+      "type": "package",
+      "path": "fakeiteasy/8.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fakeiteasy.8.3.0.nupkg.sha512",
+        "fakeiteasy.nuspec",
+        "images/FakeItEasy.png",
+        "lib/net462/FakeItEasy.dll",
+        "lib/net462/FakeItEasy.xml",
+        "lib/net6.0/FakeItEasy.dll",
+        "lib/net6.0/FakeItEasy.xml",
+        "lib/net8.0/FakeItEasy.dll",
+        "lib/net8.0/FakeItEasy.xml",
+        "lib/netstandard2.0/FakeItEasy.dll",
+        "lib/netstandard2.0/FakeItEasy.xml",
+        "lib/netstandard2.1/FakeItEasy.dll",
+        "lib/netstandard2.1/FakeItEasy.xml"
+      ]
+    },
     "MediatR/12.4.0": {
       "sha512": "s8xhhvsTQqt7jI1XeVqcniiph/QoRmJb1qxVgk7UFpAgOzpzZ0VTl8zV+lFJgxISVqZuJRjmxF+P3AuHyelCrg==",
       "type": "package",
@@ -634,6 +739,37 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Diagnostics.EventLog/6.0.0": {
+      "sha512": "lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Diagnostics.EventLog.dll",
+        "lib/net461/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
+        "lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Memory/4.5.5": {
       "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
@@ -695,52 +831,39 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Domain >= 1.0.0",
+      "FakeItEasy >= 8.3.0",
       "MediatR >= 12.4.0",
       "Microsoft.Extensions.Hosting.Abstractions >= 8.0.0",
       "RabbitMQ.Client >= 6.8.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mattia\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/mattia/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Application\\Application.csproj",
+      "projectUniqueName": "/home/mattia/Desktop/test-rabbit/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\mattia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Application\\obj\\",
+      "projectPath": "/home/mattia/Desktop/test-rabbit/Application/Application.csproj",
+      "packagesPath": "/home/mattia/.nuget/packages/",
+      "outputPath": "/home/mattia/Desktop/test-rabbit/Application/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mattia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/mattia/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\mattia\\Desktop\\Nugets": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/Hr3wZpJbbFQbksDO3Az7sv3c1MLuerbtOzTqdtiXdUecd7BGvD/api": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Domain\\Domain.csproj"
+            "/home/mattia/Desktop/test-rabbit/Domain/Domain.csproj": {
+              "projectPath": "/home/mattia/Desktop/test-rabbit/Domain/Domain.csproj"
             }
           }
         }
@@ -755,6 +878,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "FakeItEasy": {
+            "target": "Package",
+            "version": "[8.3.0, )"
+          },
           "MediatR": {
             "target": "Package",
             "version": "[12.4.0, )"
@@ -784,7 +911,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

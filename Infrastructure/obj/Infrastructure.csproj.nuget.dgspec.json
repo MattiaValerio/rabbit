@@ -1,45 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Infrastructure\\Infrastructure.csproj": {}
+    "/home/mattia/Desktop/test-rabbit/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Application\\Application.csproj": {
+    "/home/mattia/Desktop/test-rabbit/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Application\\Application.csproj",
+        "projectUniqueName": "/home/mattia/Desktop/test-rabbit/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\mattia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Application\\obj\\",
+        "projectPath": "/home/mattia/Desktop/test-rabbit/Application/Application.csproj",
+        "packagesPath": "/home/mattia/.nuget/packages/",
+        "outputPath": "/home/mattia/Desktop/test-rabbit/Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mattia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/mattia/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\mattia\\Desktop\\Nugets": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/Hr3wZpJbbFQbksDO3Az7sv3c1MLuerbtOzTqdtiXdUecd7BGvD/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Domain\\Domain.csproj"
+              "/home/mattia/Desktop/test-rabbit/Domain/Domain.csproj": {
+                "projectPath": "/home/mattia/Desktop/test-rabbit/Domain/Domain.csproj"
               }
             }
           }
@@ -54,6 +42,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.0, )"
@@ -83,39 +75,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Domain\\Domain.csproj": {
+    "/home/mattia/Desktop/test-rabbit/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/mattia/Desktop/test-rabbit/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\mattia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Domain\\obj\\",
+        "projectPath": "/home/mattia/Desktop/test-rabbit/Domain/Domain.csproj",
+        "packagesPath": "/home/mattia/.nuget/packages/",
+        "outputPath": "/home/mattia/Desktop/test-rabbit/Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mattia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/mattia/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\mattia\\Desktop\\Nugets": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/Hr3wZpJbbFQbksDO3Az7sv3c1MLuerbtOzTqdtiXdUecd7BGvD/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -148,46 +128,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Infrastructure\\Infrastructure.csproj": {
+    "/home/mattia/Desktop/test-rabbit/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/home/mattia/Desktop/test-rabbit/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mattia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Infrastructure\\obj\\",
+        "projectPath": "/home/mattia/Desktop/test-rabbit/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/mattia/.nuget/packages/",
+        "outputPath": "/home/mattia/Desktop/test-rabbit/Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mattia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/mattia/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\mattia\\Desktop\\Nugets": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/Hr3wZpJbbFQbksDO3Az7sv3c1MLuerbtOzTqdtiXdUecd7BGvD/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\mattia\\Desktop\\test\\rabbit\\Application\\Application.csproj"
+              "/home/mattia/Desktop/test-rabbit/Application/Application.csproj": {
+                "projectPath": "/home/mattia/Desktop/test-rabbit/Application/Application.csproj"
               }
             }
           }
@@ -217,7 +185,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

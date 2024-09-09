@@ -1,12 +1,13 @@
-﻿using MediatR;
+﻿using Domain.Entities;
+using MediatR;
 namespace Application.Command.Order;
 
-public class OrderCommandHandler : IRequestHandler<OrderCommand, Guid>
+public class OrderCommandHandler : IRequestHandler<OrdineCommand, string>
 {
-    public Task<Guid> Handle(OrderCommand request, CancellationToken cancellationToken)
+    public Task<string> Handle(OrdineCommand request, CancellationToken cancellationToken)
     {
-        Domain.Entities.Order x = new Domain.Entities.Order(request.ProductName, request.Price, request.Table);
+        Ordine x = new Ordine(request.tavoloId, request.prodotti);
         
-        return Task.FromResult(x.Id);
+        return Task.FromResult(x.Stato.GetDescrizione());
     }
 }
