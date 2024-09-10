@@ -1,4 +1,5 @@
-﻿using Infrastructure.Interfaces;
+﻿using Application.Services.Ws;
+using Infrastructure.Interfaces;
 using Infrastructure.Services.RabbitMQ;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +22,8 @@ public static class AppInjection
         services.AddSingleton<IQueService, QueService>();
         services.AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(AppInjection).Assembly));
         
+        // Register WebSocketHandler as a singleton
+        services.AddSingleton<WsHandler>();
         
         return services;
     }

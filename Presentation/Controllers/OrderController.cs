@@ -7,7 +7,7 @@ namespace Presentation.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class OrderController : Controller
+public class OrderController : ControllerBase
 {
     private readonly IMediator _mediator;
 

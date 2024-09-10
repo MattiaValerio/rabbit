@@ -27,8 +27,13 @@ if (app.Environment.IsDevelopment())
 //allow any policy for CORS
 app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-app.UseWebSockets();
-
+// Enable WebSockets
+var webSocketOptions = new WebSocketOptions()
+{
+    KeepAliveInterval = TimeSpan.FromMinutes(2),
+    ReceiveBufferSize = 4 * 1024
+};
+app.UseWebSockets(webSocketOptions);
 
 app.UseHttpsRedirection();
 
