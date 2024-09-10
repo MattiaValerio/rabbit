@@ -31,10 +31,7 @@ public class QueService : IQueService, IDisposable
                 exclusive: false,
                 autoDelete: false,
                 arguments: null);
-            
-            Console.WriteLine("CONNESSIONE CREATA");
         }
-        Console.WriteLine("CONNESSIONE GIA PRESENTE");
     }
     
     public Task SendMessageAsync<T>(T message)

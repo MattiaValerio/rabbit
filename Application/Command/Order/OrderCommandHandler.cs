@@ -21,8 +21,10 @@ public class OrderCommandHandler : IRequestHandler<OrdineCommand, string>
         // Send order to RabbitMQ queue
         await _queService.SendMessageAsync(order);
         
+        
+        
         // Broadcast the new order to WebSocket clients
-        var orderMessage = $"Ordine arrivato: {order.Id}";
+        var orderMessage = $"Tavolo {order.Tavolo} ha ordinato {String.Join(",", order.Prodotti.Select(p=>p.Nome))}";
         await _webSocketHandler.BroadcastOrder(orderMessage);
 
         return order.Id.ToString();
