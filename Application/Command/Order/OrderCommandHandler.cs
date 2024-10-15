@@ -22,7 +22,6 @@ public class OrderCommandHandler : IRequestHandler<OrdineCommand, string>
         await _queService.SendMessageAsync(order);
         
         
-        
         // Broadcast the new order to WebSocket clients
         var orderMessage = $"Tavolo {order.Tavolo} ha ordinato {String.Join(",", order.Prodotti.Select(p=>p.Nome))}";
         await _webSocketHandler.BroadcastOrder(orderMessage);
